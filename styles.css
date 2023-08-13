@@ -1,0 +1,73 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #143677, #4e085f);
+    color: white;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  h1, h2 {
+    text-align: center;
+  }
+  
+  #app {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: white(255, 255, 255, 0.1);
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px white(0, 0, 0, 0.3);
+  }
+  
+  .input-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    width: calc(33.33% - 10px);
+  }
+  
+  input[type="text"],
+  input[type="number"] {
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+  }
+  
+  button {
+    background: #2ecc71;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  button:hover {
+    background: #27ae60;
+  }
+  
+  .expenses-list {
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+  input[type="text"]::placeholder,
+  input[type="number"]::placeholder {
+    color: white;
+  }

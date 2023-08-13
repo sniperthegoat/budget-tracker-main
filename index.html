@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Personal Budget Tracker</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h1>Personal Budget Tracker</h1>
+  <div id="app">
+    <div class="input-section">
+      <input type="text" id="expense-name" placeholder="Expense Name">
+      <input type="number" id="expense-amount" placeholder="Amount">
+      <button id="add-expense">Add Expense</button>
+    </div>
+    <div class="expenses-list">
+      <h2>Expenses</h2>
+      <ul id="expenses">
+        <!-- Expenses will be added here -->
+      </ul>
+      <p>Total Expenses: $<span id="total-expenses">0</span></p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
